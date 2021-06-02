@@ -1,0 +1,1 @@
+{"name":"read-cache","dist-tags":{"latest":"1.0.0"},"versions":{"1.0.0":{"name":"read-cache","version":"1.0.0","dependencies":{"pify":"^2.3.0"},"devDependencies":{"ava":"^0.9.1","del":"^2.2.0"},"dist":{"shasum":"e664ef31161166c9751cdbe8dbcf86b5fb58f774","tarball":"https://registry.npmjs.org/read-cache/-/read-cache-1.0.0.tgz"}}},"modified":"2016-01-11T01:53:14.064Z"}
