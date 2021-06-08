@@ -6,13 +6,15 @@ import { AppComponent } from './app.component';
 import { CustomerPageComponent } from './components/customer-page/customer-page.component';
 import { ItemPageComponent } from './components/item-page/item-page.component';
 import { OrderPageComponent } from './components/order-page/order-page.component';
+import { NotFoundPageComponent } from './components/not-found-page/not-found-page.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     CustomerPageComponent,
     ItemPageComponent,
-    OrderPageComponent
+    OrderPageComponent,
+    NotFoundPageComponent
   ],
   imports: [
     BrowserModule,

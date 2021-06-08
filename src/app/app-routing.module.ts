@@ -3,6 +3,7 @@ import { RouterModule, Routes } from '@angular/router';
 import {CustomerPageComponent} from "./components/customer-page/customer-page.component";
 import {ItemPageComponent} from "./components/item-page/item-page.component";
 import {OrderPageComponent} from "./components/order-page/order-page.component";
+import {NotFoundPageComponent} from "./components/not-found-page/not-found-page.component";
 
 const routes: Routes = [
   // {path:'',component:CustomerPageComponent},
@@ -18,8 +19,10 @@ const routes: Routes = [
   },
   {
     path:'order', component:OrderPageComponent
+  },
+  {
+    path: '**', component:NotFoundPageComponent
   }
-
 ];
 
 @NgModule({
