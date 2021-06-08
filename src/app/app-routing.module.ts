@@ -5,6 +5,11 @@ import {ItemPageComponent} from "./components/item-page/item-page.component";
 import {OrderPageComponent} from "./components/order-page/order-page.component";
 
 const routes: Routes = [
+  // {path:'',component:CustomerPageComponent},
+
+  {
+    path:'', redirectTo:'/customer', pathMatch:'full'
+  },
   {
     path:'customer', component:CustomerPageComponent
   },
@@ -14,6 +19,7 @@ const routes: Routes = [
   {
     path:'order', component:OrderPageComponent
   }
+
 ];
 
 @NgModule({
